@@ -96,3 +96,4 @@ jika tidak ada error maka akan tampil seperti gambar berikut :
 <img src="images/git-tut10.png" alt="">
 
 
+> patch yang dikirim baru akan tampil pada repository jika sudah di commit
