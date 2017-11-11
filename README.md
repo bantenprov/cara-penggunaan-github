@@ -52,6 +52,7 @@ jika berhasil maka akan ada file baru dengan nama "**.gitignore**", untuk meliha
 $ ls -la
 ```
 maka akan terlihat seperti gambar berikut :
+
 <img src="images/git-tut7.png">
 sampai pada langkah ini kita telah berhasil menambahkan folder "**flowchart**" dan di dalam folder tersebut telah ada file "**.gitignore**"
 
