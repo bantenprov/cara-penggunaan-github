@@ -52,7 +52,9 @@ jika berhasil maka akan ada file baru dengan nama "**.gitignore**", untuk meliha
 $ ls -la
 ```
 maka akan terlihat seperti gambar berikut :
+
 <img src="images/git-tut7.png">
+
 sampai pada langkah ini kita telah berhasil menambahkan folder "**flowchart**" dan di dalam folder tersebut telah ada file "**.gitignore**"
 
 berikutnya kita akan update folder dan file yang sudah di buat tadi ke repository yang di clone di awal tadi dengan cara kita kembali ke folder awal yang di clone tadi dengan perintah berikut :
@@ -82,7 +84,7 @@ $ git commit -m "<isi pesan>"
 <img src="images/git-tut9.png">
 
 ### 4. git push
- **git add** adalah memasukkan file-file atau direktori hasil kerjaan kita yang dilakukan setelah melakukan commit ke tempat penyimpanan projeknya (misal dalam kasus ini adalah github).
+ **git push** adalah memasukkan file-file atau direktori hasil kerjaan kita yang dilakukan setelah melakukan commit ke tempat penyimpanan projeknya (misal dalam kasus ini adalah github).
 
 terakhir kita akan menjalankan perintah **git push** 
 
