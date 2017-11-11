@@ -82,7 +82,7 @@ $ git commit -m "<isi pesan>"
 <img src="images/git-tut9.png">
 
 ### 4. git push
- **git add** adalah memasukkan file-file atau direktori hasil kerjaan kita yang dilakukan setelah melakukan commit ke tempat penyimpanan projeknya (misal dalam kasus ini adalah github).
+ **git push** adalah memasukkan file-file atau direktori hasil kerjaan kita yang dilakukan setelah melakukan commit ke tempat penyimpanan projeknya (misal dalam kasus ini adalah github).
 
 terakhir kita akan menjalankan perintah **git push** 
 
