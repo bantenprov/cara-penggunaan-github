@@ -98,7 +98,7 @@ jika tidak ada error maka akan tampil seperti gambar berikut :
 
 > patch yang dikirim baru akan tampil pada repository jika sudah di commit
 
-## Cara fork dan patch
+## Cara membuat patch untuk non contributor
 
 ### 1. Fork
 Fork terlebih dahulu repository yg ingin di patch.
