@@ -97,3 +97,99 @@ jika tidak ada error maka akan tampil seperti gambar berikut :
 
 
 > patch yang dikirim baru akan tampil pada repository jika sudah di commit
+
+## Cara fork dan patch
+
+### 1. Fork
+Fork terlebih dahulu repository yg ingin di patch.
+
+Klik tombol fork
+
+<img src="images/request-pull1.png">
+
+### 2. Copy link untuk clone 
+
+<img src="images/request-pull2.png">
+
+lalu jalankan perintah ini :
+
+**git clone < url clone>**
+
+```bash
+$ git clone https://github.com/feripratama/noncontrib.git
+```
+
+<img src="images/request-pull3.png">
+
+setelah itu pindah ke folder / directory yang telah di clone 
+
+```bash
+$ cd noncontrib
+```
+
+<img src="images/request-pull4.png">
+
+setelah di dalam directory **noncontrib** (sesuaikan dengan directory yang ada)
+
+tambahkan file baru pada local repository, dengan mejalankan perintah seperti berikut :
+
+```bash
+$ echo "" > newFile.php
+```
+
+<img src="images/request-pull5.png">
+
+jika tidak ada error, maka lanjutkan lagi dengan mengetikkan perintah **git add** :
+
+```bash
+$ git add -A
+$ git status
+```
+
+<img src="images/request-pull6.png">
+
+terlihat ada penambahan file baru " **newFile.php** "
+
+lanjut tambahkan branch baru pada repository dengan perintah sebagai berikut :
+
+```bash
+$ git checkout -b patch-5
+```
+
+<img src="images/request-pull7.png">
+
+sejauh ini kita telah berhasil menambahkan file baru dan menambahkan branch **patch-5**
+
+lalu lanjut mengetikkan perintah **git commit** 
+
+```bash
+$ git commit -m "add newFile.php"
+```
+<img src="images/request-pull8.png">
+
+jika berhasil maka tampilan seperti gambar di atas
+maka lanjutkan dengan mengetikkan perintah **git push**
+
+```bash
+$ git push origin patch-5
+```
+
+<img src="images/request-pull9.png">
+
+setelah semua berhasil, buka repository yang di fork di awal tadi 
+
+<img src="images/request-pull10.png">
+
+terlihat ada notice patch-5 sama seperti nama branch yang kita tambahkan tadi, lalu klik tombol **Compare & pull request**
+
+setelah tombol **Compare & pull request** di klik maka akan di bawa ke halaman Pull request.
+
+<img src="images/request-pull11.png">
+
+lalu klik tombol **Create pull request**
+
+jika berhasil maka tampilan akan terlihat seperti gambar di bawah :
+
+<img src="images/request-pull12.png">
+
+
