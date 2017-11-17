@@ -136,10 +136,10 @@ tambahkan file baru pada local repository, dengan mejalankan perintah seperti be
 ```bash
 $ echo "" > newFile.php
 ```
-atau tambahkan file yang anda ingin upload dari folder lain
+atau tambahkan file yang anda ingin upload dari folder lain, misalkan nama foldernya adalah "folder-asal" (sesuaikan path folder-asal tersebut apa perintah dibawah ini:
 
 ```bash
-$ cp -R ../../folder-asal  .
+$ cp -R ../folder-asal  .
 ```
 
 <img src="images/request-pull5.png">
@@ -153,7 +153,7 @@ $ git status
 
 <img src="images/request-pull6.png">
 
-terlihat ada penambahan file baru " **newFile.php** "
+jika menambahkan file seperti contoh diatas, maka terlihat ada penambahan file baru " **newFile.php** "
 
 lanjut tambahkan branch baru pada repository dengan perintah sebagai berikut :
 
