@@ -136,6 +136,11 @@ tambahkan file baru pada local repository, dengan mejalankan perintah seperti be
 ```bash
 $ echo "" > newFile.php
 ```
+atau tambahkan file yang anda ingin upload dari folder lain
+
+```bash
+$ cp -R ../../folder-asal  .
+```
 
 <img src="images/request-pull5.png">
 
