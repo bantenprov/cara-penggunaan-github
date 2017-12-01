@@ -199,13 +199,36 @@ jika berhasil maka tampilan akan terlihat seperti gambar di bawah :
 
 ## Menggabungkan dua repository
 Pada bagian ini kita menggabungkan repository yang kita miliki dan berasal dari fork repository utama. 
+### jalankan git remote add
 *misalkan kita alias yang akan gunakan sebagai remote repository adalah: version-02 dan repo yang akan di remmote untuk digabungkan adalah https://github.com/bantenprov/dashboard-epormas.git*
 
 ```bash
 git remote add version-02 https://github.com/bantenprov/dashboard-epormas.git
 
 ```
-kemudian jalankan
+## kemudian jalankan git pull
+kalau tadi kita menggunakan *version-02* untuk alias maka perintahnya menjadi:
+
 ```bash
 git pull version-02 master
+```
+## git status
+
+```bash
+git status
+```
+## git add -A
+untuk menambahkan semua perubahan yang terjadi
+```bash
+git add -A
+```
+## git commit
+untuk menambahkan semua perubahan yang terjadi
+```bash
+git commit -m "gabungkan dua repo"
+```
+## git push
+untuk mengirimkan perubahan yang sudah di commit ke git repo dengan branch *version-01*, lakukan
+```bash
+git push version-01
 ```
