@@ -199,10 +199,13 @@ jika berhasil maka tampilan akan terlihat seperti gambar di bawah :
 
 ## Menggabungkan dua repository
 Pada bagian ini kita menggabungkan repository yang kita miliki dan berasal dari fork repository utama. 
-**misalkan kita alias yang akan gunakan sebagai remote repository adalah: version-02 
-dan repo yang akan di remmote untuk digabungkan adalah https://github.com/bantenprov/dashboard-epormas.git**
+*misalkan kita alias yang akan gunakan sebagai remote repository adalah: version-02 dan repo yang akan di remmote untuk digabungkan adalah https://github.com/bantenprov/dashboard-epormas.git*
 
 ```bash
 git remote add version-02 https://github.com/bantenprov/dashboard-epormas.git
 
+```
+kemudian jalankan
+```bash
+git pull version-02 master
 ```
