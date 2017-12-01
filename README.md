@@ -232,3 +232,4 @@ untuk mengirimkan perubahan yang sudah di commit ke git repo dengan branch *vers
 ```bash
 git push version-01
 ```
+selesai ini lanjutkan dengan pull request
