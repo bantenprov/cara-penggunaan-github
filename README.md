@@ -197,4 +197,5 @@ jika berhasil maka tampilan akan terlihat seperti gambar di bawah :
 
 <img src="images/request-pull12.png">
 
-
+## Menggabungkan dua repository
+Pada bagian ini kita menggabungkan repository yang kita miliki dan berasal dari fork repository utama. 
