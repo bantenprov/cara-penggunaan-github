@@ -1,6 +1,8 @@
 # Cara penggunaan github
 Cara penggunaan github untuk berkolaborasi mengelola pekerjaan
 
+
+## Untuk kontributor
 ### 1. git clone
 
 Perintah "**git clone**" digunakan untuk mengunduh code yang ada pada repository.
@@ -98,7 +100,7 @@ jika tidak ada error maka akan tampil seperti gambar berikut :
 
 > patch yang dikirim baru akan tampil pada repository jika sudah di commit
 
-## Cara membuat patch untuk non contributor
+## Untuk non contributor
 
 ### 1. Fork
 Fork terlebih dahulu repository yg ingin di patch.
@@ -206,28 +208,28 @@ Pada bagian ini kita menggabungkan repository yang kita miliki dan berasal dari 
 git remote add version-02 https://github.com/bantenprov/dashboard-epormas.git
 
 ```
-## kemudian jalankan git pull
+### kemudian jalankan git pull
 kalau tadi kita menggunakan *version-02* untuk alias maka perintahnya menjadi:
 
 ```bash
 git pull version-02 master
 ```
-## git status
+### git status
 
 ```bash
 git status
 ```
-## git add -A
+### git add -A
 untuk menambahkan semua perubahan yang terjadi
 ```bash
 git add -A
 ```
-## git commit
+### git commit
 untuk menambahkan semua perubahan yang terjadi
 ```bash
 git commit -m "gabungkan dua repo"
 ```
-## git push
+### git push
 untuk mengirimkan perubahan yang sudah di commit ke git repo dengan branch *version-01*, lakukan
 ```bash
 git push version-01
