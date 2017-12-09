@@ -206,39 +206,79 @@ jika berhasil maka tampilan akan terlihat seperti gambar di bawah :
 
 ## Menggabungkan dua repository
 Pada bagian ini kita menggabungkan repository yang kita miliki dan berasal dari fork repository utama. 
-### jalankan git remote add
+### menggunakan version
+#### jalankan git remote add
 *misalkan kita alias yang akan gunakan sebagai remote repository adalah: version-02 dan repo yang akan di remmote untuk digabungkan adalah https://github.com/bantenprov/dashboard-epormas.git*
 
 ```bash
 git remote add version-02 https://github.com/bantenprov/dashboard-epormas.git
 
 ```
-### kemudian jalankan git pull
+#### kemudian jalankan git pull
 kalau tadi kita menggunakan *version-02* untuk alias maka perintahnya menjadi:
 
 ```bash
 git pull version-02 master
 ```
-### git status
+#### git status
 
 ```bash
 git status
 ```
-### git add -A
+#### git add -A
 untuk menambahkan semua perubahan yang terjadi
 ```bash
 git add -A
 ```
-### git commit
+#### git commit
 untuk menambahkan semua perubahan yang terjadi
 ```bash
 git commit -m "gabungkan dua repo"
 ```
-### git push
+#### git push
 untuk mengirimkan perubahan yang sudah di commit ke git repo dengan branch *version-01*, lakukan
 ```bash
 git push version-01
 ```
-selesai ini lanjutkan dengan pull request
+
+### menggunakan upstream
+#### jalankan git remote add
+*misalkan kita alias yang akan gunakan sebagai remote repository adalah: upstream dan repo yang akan di remmote untuk digabungkan adalah https://github.com/bantenprov/document-management-system.git*
+
+```bash
+git remote add upstream https://github.com/bantenprov/document-management-system.git
+
+```
+#### kemudian jalankan git pull
+kalau tadi kita menggunakan *upstream* untuk mengambil perubahan yang terjadi di repo asli agar tidak terjadi konflik. Penggunaan *--rebase* berfungsi untuk memodifikasi riwayat commit yang sudah ada. Sebagai contoh, rebase dapat dipakai untuk menggantikan merge. Walaupun memberikan hasil yang sama, keduanya memiliki "efek samping" yang berbeda. Operasi merge akan menghasilkan commit baru sementara rebase tidak! Dengan demikian, rebase menghasilkan riwayat yang lebih rapi tanpa percabangan.
+
+```bash
+git pull --rebase upstream master
+```
+#### git status
+
+```bash
+git status
+```
+#### git add -A
+untuk menambahkan semua perubahan yang terjadi
+```bash
+git add -A
+```
+#### git checkout dan patch
+untuk mengecek ada tidaknya patch yang ingin dipakai dan membuat patchnya
+```bash
+git checkout -b patch-1
+```
+#### git commit
+untuk menambahkan semua perubahan yang terjadi
+```bash
+git commit -m "gabungkan dua repo"
+```
+#### git push
+untuk mengirimkan perubahan yang sudah di commit ke git repo dengan branch *version-01*, lakukan
+```bash
+git push origin patch-1
+```
 ## Menggabungkan dua branch
 catatan ini bertujuan menggabungkan salah satu branch ke dalam master
