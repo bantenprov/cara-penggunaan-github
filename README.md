@@ -1,10 +1,17 @@
 # Cara penggunaan github
 Cara penggunaan github untuk berkolaborasi mengelola pekerjaan
 
-1. [Untuk Kontributor](https://github.com/bantenprov/cara-penggunaan-github#untuk-kontributor)
-2. [Untuk non kontributor](https://github.com/bantenprov/cara-penggunaan-github#untuk-non-contributor)
-3. [Menggabungkan dua repository](https://github.com/bantenprov/cara-penggunaan-github#menggabungkan-dua-repository)
-4. [Menggabungkan dua branch](https://github.com/bantenprov/cara-penggunaan-github#menggabungkan-dua-branch)
+1. [Untuk Kontributor](#untuk-kontributor)
+
+2. [Untuk non kontributor](/#untuk-non-contributor)
+
+3. [Menggabungkan dua repository](/#menggabungkan-dua-repository)
+
+3.1. [menggunakan version](#menggunakan-version)
+
+3.2. [menggunakan upstream](#menggunakan-upstream)
+
+4. [Menggabungkan dua branch](#menggabungkan-dua-branch)
 
 
 ## Untuk kontributor
@@ -206,7 +213,8 @@ jika berhasil maka tampilan akan terlihat seperti gambar di bawah :
 
 ## Menggabungkan dua repository
 Pada bagian ini kita menggabungkan repository yang kita miliki dan berasal dari fork repository utama. 
-### menggunakan version
+
+### Menggunakan version
 #### jalankan git remote add
 *misalkan kita alias yang akan gunakan sebagai remote repository adalah: version-02 dan repo yang akan di remmote untuk digabungkan adalah https://github.com/bantenprov/dashboard-epormas.git*
 
@@ -241,7 +249,7 @@ untuk mengirimkan perubahan yang sudah di commit ke git repo dengan branch *vers
 git push version-01
 ```
 
-### menggunakan upstream
+### Menggunakan upstream
 #### jalankan git remote add
 *misalkan kita alias yang akan gunakan sebagai remote repository adalah: upstream dan repo yang akan di remmote untuk digabungkan adalah https://github.com/bantenprov/document-management-system.git*
 
