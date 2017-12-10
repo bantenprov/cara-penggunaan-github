@@ -4,6 +4,8 @@ Cara penggunaan github untuk berkolaborasi mengelola pekerjaan
 1. [Untuk Kontributor](https://github.com/bantenprov/cara-penggunaan-github#untuk-kontributor)
 2. [Untuk non kontributor](https://github.com/bantenprov/cara-penggunaan-github#untuk-non-contributor)
 3. [Menggabungkan dua repository](https://github.com/bantenprov/cara-penggunaan-github#menggabungkan-dua-repository)
+3.1. [menggunakan version](https://github.com/bantenprov/cara-penggunaan-github#menggunakan-version)
+3.2. [menggunakan upstream](https://github.com/bantenprov/cara-penggunaan-github#menggunakan-upstream)
 4. [Menggabungkan dua branch](https://github.com/bantenprov/cara-penggunaan-github#menggabungkan-dua-branch)
 
 
